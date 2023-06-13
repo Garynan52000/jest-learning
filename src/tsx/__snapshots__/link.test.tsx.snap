@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`changes the class when hovered 1`] = `
+<a
+  className="normal"
+  href="javascript:;"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  target="_self"
+>
+  HOVER
+</a>
+`;
+
+exports[`changes the class when hovered 2`] = `
+<a
+  className="hover"
+  href="javascript:;"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  target="_self"
+>
+  HOVER
+</a>
+`;
+
+exports[`changes the class when hovered 3`] = `
+<a
+  className="normal"
+  href="javascript:;"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  target="_self"
+>
+  HOVER
+</a>
+`;
+
+exports[`properly escapes quotes 1`] = `
+<a
+  className="normal"
+  href="javascript:;"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  target="_self"
+>
+  "Facebook" \\'is \\ 'awesome'
+</a>
+`;
+
+exports[`renders as FaceBook _blank link 1`] = `
+<a
+  className="normal"
+  href="http://www.facebook.com"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  target="_blank"
+>
+  Facebook
+</a>
+`;
+
+exports[`renders with no props 1`] = `
+<a
+  className="normal"
+  href="javascript:;"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  target="_self"
+>
+  按钮
+</a>
+`;

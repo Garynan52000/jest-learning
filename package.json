@@ -1,0 +1,29 @@
+{
+  "name": "jest-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --no-cache --config jest.config.js",
+    "jest:ups": "jest --updateSnapshot"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.4.4",
+    "@babel/preset-env": "7.4.4",
+    "@babel/preset-typescript": "7.3.3",
+    "@types/jest": "22.2.3",
+    "@types/react": "^17.0.1",
+    "@types/react-dom": "^17.0.1",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "22.4.4",
+    "jest": "22.4.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-test-renderer": "^17.0.1",
+    "ts-jest": "22.4.4",
+    "typescript": "3.4.5"
+  }
+}
